@@ -1,0 +1,12 @@
+TC001
+Actual Result: Payment failed; no payment method could be selected.
+Comparison with Expected Result: Does not match.
+Status: Failed (Bug: Payment method configuration issue).
+
+
+
+TC002
+Actual Result: Payment failed; no payment method could be selected.
+Comparison with Expected Result: Does not match.
+Status: Failed (Bug: Payment method configuration issue).
+
