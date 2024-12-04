@@ -1,1 +1,23 @@
+TC001
+Positive test
+Test goal: Successful payment
+Precondition: The user selects a valid payment method
+Test steps
+1. Submit the order and select online payment.
+2. Enter valid payment information.
+3. Click the "Confirm payment" button.
+Expected result: Payment is successful and the order number is generated.
+
+
+
+TC002
+Abnormal test
+Test goal: Failed payment
+Precondition: The user selects an invalid payment method
+Test steps:
+1. Submit the order and select online payment.
+2. Enter invalid payment information.
+3. Click the "Confirm payment" button.
+Expected result: Payment failed, prompt "Invalid payment method, please check and try again".
+
 
