@@ -1,1 +1,10 @@
+TC001
+Positive test
+Test goal: Add products to the shopping cart
+Precondition: The user has registered
+Test steps:
+1. Open the product browsing page.
+2. Click the "Add to Cart" button of the product.
+Expected result: The product is successfully added to the shopping cart, and the number of items in the shopping cart increases.
+
 
