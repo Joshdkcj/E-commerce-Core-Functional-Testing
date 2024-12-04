@@ -1,0 +1,12 @@
+TC001
+Actual Result: Displays a list of products matching the keyword.
+Comparison with Expected Result: Matches.
+Status: Passed.
+
+
+
+TC002
+Actual Result: Displays a message indicating that no products were found.
+Comparison with Expected Result: Matches.
+Status: Passed.
+
