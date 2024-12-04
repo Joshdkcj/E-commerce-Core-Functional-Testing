@@ -1,0 +1,26 @@
+TC001
+Actual Result: Login successful and redirected to the user homepage.
+Comparison with Expected Result: Matches.
+Status: Passed
+
+
+
+TC002
+Actual Result: Login failed with an error message.
+Comparison with Expected Result: Matches.
+Status: Passed.
+
+
+
+TC003
+Actual Result: Login failed with an error message.
+Comparison with Expected Result: Matches.
+Status: Passed.
+
+
+
+TC004
+Actual Result: Login failed, but the system allows unlimited input length for username and password.
+Comparison with Expected Result: Does not fully match.
+Status: Failed (Bug: Input validation missing for max length).
+
