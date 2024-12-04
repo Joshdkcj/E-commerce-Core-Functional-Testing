@@ -1,1 +1,49 @@
 
+TC001
+Positive test
+Test goal： Enter the correct account and password
+Precondition： The user has registered
+Test steps：
+1. Open the login page.
+2. Enter a valid username and password.
+3. Click the "Login" button.
+Expected result： Login is successful and jumps to the user's homepage.
+
+
+
+TC002
+Abnormal test
+Test goal： Enter the wrong account and password
+Precondition： None
+Test steps：
+1. Open the login page.
+2. Enter the wrong username and password.
+3. Click the "Login" button.
+Expected result： Login failed, prompt "Username or password is wrong".
+
+
+
+TC003
+Abnormal test
+Test goal： Enter an empty username and password
+Precondition： None
+Test steps：
+1. Open the login page.
+2. Enter an empty username and password.
+3. Click the "Login" button.
+Expected result: Login failed, prompt "Username and password cannot be empty".
+
+
+
+TC004
+Boundary test
+Test goal: Enter the longest username and password
+Precondition: The maximum input length supported by the system
+Test steps:
+1. Open the login page.
+2. Enter the longest username and password.
+3. Click the "Login" button.
+Expected result:
+If the input length is legal: Login is successful and jumps to the user's homepage.
+If the input length exceeds the limit: prompt "Username or password input is too long, please check".
+
