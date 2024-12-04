@@ -1,0 +1,5 @@
+TC001
+Actual Result: Product successfully added to the cart, and the cart quantity increased.
+Comparison with Expected Result: Matches.
+Status: Passed.
+
