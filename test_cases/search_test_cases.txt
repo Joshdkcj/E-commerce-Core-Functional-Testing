@@ -1,0 +1,22 @@
+TC001
+Positive test
+Test goal: Search for products by keywords
+Precondition: There are related products on the website
+Test steps:
+1. Open the website homepage.
+2. Enter the product name.
+3. Click the "Search" button.
+Expected result: Display a list of products related to the keyword.
+
+
+
+TC002
+Abnormal test
+Test goal: Search for non-existent products
+Precondition: There are no related products on the website
+Test steps:
+1. Open the website homepage.
+2. Enter the non-existent product name.
+3. Click the "Search" button.
+Expected result: Display the prompt "No related products found".
+
